@@ -1,0 +1,36 @@
+.todo-form {
+    margin: 2rem 2rem 2rem 10px;
+    text-align: center;
+}
+
+.todo-input {
+    padding: 6px;
+    border: 1px solid #c5f0e9;
+}
+
+.todo-input:focus {
+    outline: 1px solid #c5f0e9;
+}
+
+.btn-submit {
+    background-color: #63a99e;
+    border: 1px solid #63a99e;
+    padding: 6px;
+    color: #fff;
+    font-family: 'Roboto';
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    border: 1px solid #63a99e;
+    background-color: #fff;
+    color: #63a99e;
+}
+
+.enter-form {
+    opacity: 1;
+    transform: translate(0, 0);
+    transition: all 300ms ease-in;
+}
